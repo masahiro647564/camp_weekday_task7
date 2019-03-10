@@ -3,3 +3,5 @@
 <% @articles.each do |article| %>
   <p><%= link_to article.title, article %></p>
 <% end %>
+
+<%= link_to "新規論文投稿", new_article_path %>
